@@ -1,0 +1,16 @@
+gtfs-realtime-bindings
+protobuf<7
+requests
+python-dotenv
+pandas>=2.2,<3
+geopandas
+shapely
+SQLAlchemy
+psycopg2-binary
+streamlit
+streamlit-autorefresh
+pydeck
+altair
+dagster>=1.12
+dagster-webserver
+pytest

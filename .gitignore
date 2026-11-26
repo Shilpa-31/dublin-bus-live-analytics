@@ -1,0 +1,27 @@
+# Secrets: keep real keys and passwords out of git
+.env
+*.env
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+
+# Generated files
+# data exports, e.g. dublin_bus_data_week.csv
+*.csv
+
+# Dagster local state
+.dagster/
+tmp*/
+.tmp_dagster_home*/
+storage/
+logs/
+
+# OS / editors
+.DS_Store
+.vscode/
+.idea/

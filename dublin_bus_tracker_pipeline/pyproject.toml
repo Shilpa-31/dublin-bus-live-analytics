@@ -1,0 +1,17 @@
+[project]
+name = "dublin_bus_tracker_pipeline"
+version = "0.2.0"
+description = "Dagster pipeline: live Dublin Bus positions and delays from the NTA GTFS-Realtime feed into PostgreSQL"
+requires-python = ">=3.10,<3.13"
+dependencies = ["dagster>=1.12"]
+
+[project.optional-dependencies]
+dev = ["dagster-webserver", "pytest"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.dagster]
+module_name = "dublin_bus_tracker_pipeline.definitions"
+code_location_name = "dublin_bus_tracker_pipeline"

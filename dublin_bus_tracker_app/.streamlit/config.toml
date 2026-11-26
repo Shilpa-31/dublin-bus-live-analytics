@@ -1,0 +1,11 @@
+# Streamlit reads this automatically when you run `streamlit run app.py` from this folder.
+
+[theme]
+base = "dark"
+primaryColor = "#F2C230"            # Dublin Bus yellow: active tab, buttons, toggles
+backgroundColor = "#0E1E2F"         # night navy
+secondaryBackgroundColor = "#15283C" # panels, inputs, metric cards
+textColor = "#E6EDF3"
+
+[client]
+toolbarMode = "minimal"             # hides the developer "Deploy" menu
